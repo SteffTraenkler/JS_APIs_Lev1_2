@@ -29,7 +29,7 @@ fetch('https://picsum.photos/v2/list?page=2&limit=100')
             document.body.innerHTML += `<figure>
             <img src="${ele.download_url}">
             <figcaption>${ele.author}</figcaption>
-            <a href='${ele.url} target='_blank'>See More</a>
+            <a href='${ele.url}' target='_blank'>See More</a>
         </figure>`
         });
     });
